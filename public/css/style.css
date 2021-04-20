@@ -1,0 +1,27 @@
+:root{
+    --primary: #ffffff;
+    --secondary: #f9b7aa;
+    --background: #e0573d;
+}
+
+html, body {
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+    font-size: 24px;
+
+    color: white;
+    background-color: var(--background);
+}
+
+.flex { display: flex; justify-content: center; align-items: center; }
+.nopadding { padding: 0; }
+
+.main {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.main img {
+    width: 100%;
+}
